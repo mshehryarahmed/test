@@ -4,9 +4,25 @@ import './Services.css';
 const Services = () => {
   return (
     <section id="services" className="section services-section">
-      {/* Content for the Services section */}
-      <h2>Our Services</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <div className='title'>
+        <h2>Services We Offer</h2>
+        <div>
+          <p>WE MANAGE LEAD LOGISTICS FOR WORLD'S MULTINATIONAL COMPANIES</p>
+        </div>
+      </div>
+      <div className='cards'>
+        <div className="card">
+          <div className="image-container">
+            <img src="placeholder.jpg" alt="Card Image" />
+          </div>
+          <div className="card-content">
+            <h2>01</h2>
+            <h3>Houses</h3>
+            <p>LEARN MORE</p>
+            <div className="arrow"></div>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }
