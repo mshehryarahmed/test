@@ -1,10 +1,12 @@
 .navbar {
-    position: sticky;
+    position: fixed;
     top: 0;
-    background-color: #030303;
+    background-color: #030303e7;
     padding: 10px;
     color: #fff;
     height: 50px;
+    z-index: 100;
+    width: 100%;
 }
 
 .navbar ul {
@@ -21,7 +23,8 @@
     text-decoration: none;
     color: #fff;
 }
-.image-logo{
+
+.image-logo {
     height: 3em;
     width: 3em;
     filter: invert(100%);
