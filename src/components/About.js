@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import moving_in from '../assets/moving in.jpeg'
+import moving_in from '../assets/move_in.png'
 const About = () => {
   return (
     <section id="about" className="section about-section">

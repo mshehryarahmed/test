@@ -13,12 +13,42 @@ const Services = () => {
       <div className='cards'>
         <div className="card">
           <div className="image-container">
-            <img src="" alt="Card Image" />
+            <img src="./Images/card01.jpg" alt="Card" />
           </div>
           <div className="card-content">
-            <h2>01</h2>
-            <h3>Houses</h3>
-            <p>LEARN MORE</p>
+            <p className='card-content-id'>01</p>
+            <p className='card-content-title'>Houses</p>
+            <p className='card-content-link'>LEARN MORE <div className="arrow"></div></p>
+          </div>
+        </div>
+        <div className="card">
+          <div className="image-container">
+            <img src="./Images/card02.jpg" alt="Card" />
+          </div>
+          <div className="card-content">
+            <p className='card-content-id'>02</p>
+            <p className='card-content-title'>APARTMENTS</p>
+            <p className='card-content-link'>LEARN MORE <div className="arrow"></div></p>
+          </div>
+        </div>
+        <div className="card">
+          <div className="image-container">
+            <img src="./Images/card03.jpg" alt="Card" />
+          </div>
+          <div className="card-content">
+            <p className='card-content-id'>03</p>
+            <p className='card-content-title'>BUSINESS</p>
+            <p className='card-content-link'>LEARN MORE <div className="arrow"></div></p>
+          </div>
+        </div>
+        <div className="card">
+          <div className="image-container">
+            <img src="./Images/card04.jpg" alt="Card" />
+          </div>
+          <div className="card-content">
+            <p className='card-content-id'>04</p>
+            <p className='card-content-title'>HAULING PRODUCTS</p>
+            <p className='card-content-link'>LEARN MORE <div className="arrow"></div></p>
           </div>
         </div>
       </div>
