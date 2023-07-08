@@ -5,7 +5,8 @@ import logo from '../assets/logo.png';
 const Navbar = () => {
   return (
     <nav className="navbar">
-      {logo}
+      
+      <img src={logo} alt="logo_logistics" className="image-logo"/>
       {/* Your navigation links */}
       <ul>
         <li><a href="#home">Home</a></li>
