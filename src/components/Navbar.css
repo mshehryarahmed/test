@@ -4,7 +4,7 @@
     background-color: #030303e7;
     padding: 10px;
     color: #fff;
-    height: 50px;
+    height: auto;
     z-index: 100;
     width: 100%;
 }
@@ -12,6 +12,7 @@
 .navbar ul {
     list-style-type: none;
     float: right;
+    margin: 0;
 }
 
 .navbar ul li {
