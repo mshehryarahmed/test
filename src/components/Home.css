@@ -1,5 +1,7 @@
 .home-section {
-    background: linear-gradient(to bottom right, #00a8ff, #c39bd3);
+    /* background: linear-gradient(to bottom right, #00a8ff, #c39bd3); */
+    background-image: url('../assets/Home.jpg');
+    background-size: cover;
     height: calc(100vh - 50px);
     /* Adjust the value to account for the navbar height */
     width: 100%;
