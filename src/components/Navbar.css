@@ -14,6 +14,7 @@
     list-style-type: none;
     float: right;
     margin: 0;
+    margin-right: 50px;
 }
 
 .navbar ul li {
@@ -27,10 +28,9 @@
 }
 
 .image-logo {
-    height: 3em;
-    width: 3em;
+    height: 50px;
+    width: 50px;
     filter: invert(100%);
-    margin-left: 20px;
 }
 
 .search-icon {
