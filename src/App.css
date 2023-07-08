@@ -2,13 +2,13 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  min-height: 100vh;
+  min-height: 92vh;
   min-width: 100%;
 }
 
 .App {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 92vh;
   min-width: 100%;
 }
