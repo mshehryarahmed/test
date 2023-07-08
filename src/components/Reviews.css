@@ -3,3 +3,41 @@
     height: 80vh;
     width: 100%;
 }
+.carousel-container{
+    height: 100%;
+}
+.container-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+img.round{
+    height: 7em;
+    width: 7em;
+    border-radius: 50%;
+
+}
+.carousel-inner{
+    height: 100%;
+}
+.carousel-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.heading{
+    font-size: 40px;
+    font-weight: 500;
+}
+.sub-heading{
+    font-size: 20px;
+    font-weight: 200;
+}
+.content{
+    font-size: 20px;
+    font-weight: 300;
+}
