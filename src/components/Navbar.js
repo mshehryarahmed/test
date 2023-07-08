@@ -1,6 +1,8 @@
 import React from 'react';
 import './Navbar.css';
 import logo from '../assets/Main_Logo.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
   return (
@@ -13,6 +15,7 @@ const Navbar = () => {
         <li><a href="#about">About Us</a></li>
         <li><a href="#services">Services</a></li>
         <li><a href="#contact">Contact Us</a></li>
+        <li><FontAwesomeIcon icon={faSearch} className="search-icon" /></li>
       </ul>
     </nav>
   );
