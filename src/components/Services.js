@@ -13,13 +13,12 @@ const Services = () => {
       <div className='cards'>
         <div className="card">
           <div className="image-container">
-            <img src="placeholder.jpg" alt="Card Image" />
+            <img src="" alt="Card Image" />
           </div>
           <div className="card-content">
             <h2>01</h2>
             <h3>Houses</h3>
             <p>LEARN MORE</p>
-            <div className="arrow"></div>
           </div>
         </div>
       </div>
