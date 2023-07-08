@@ -40,6 +40,10 @@
     font-weight: bold;
 }
 
+.HomeText button:hover {
+    box-shadow: #ffffff 0.5px 0.5px 10px 0.5px;
+}
+
 .down-arrow {
     position: absolute;
     top: calc(100vh - 80px);
