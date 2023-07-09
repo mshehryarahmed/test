@@ -73,3 +73,32 @@
 .fa:first-child{
     margin-left: 30px;
 }
+.subscribe{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+p.section-heading{
+    font-weight: 800;
+    font-size: 30px;
+}
+p.section-content{
+    font-weight: 500;
+    font-size: 15px;
+}
+.color-blue{
+    background-color: #2D8AB3;
+    color: white;
+}
+.button-width{
+    width: 100%;
+    
+}
+
+.information{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
