@@ -14,7 +14,7 @@ const Navbar = () => {
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About Us</a></li>
           <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#contact-primary">Contact Us</a></li>
           <li><FontAwesomeIcon icon={faSearch} className="search-icon" /></li>
         </ul>
       </div>

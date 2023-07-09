@@ -13,6 +13,7 @@ const Services = () => {
       <div className='cards'>
         <div className="card">
           <div className="image-container">
+            <div className='tagline'>GLOBAL FAST MOVERS</div>
             <img src="./Images/card01.jpg" alt="Card" />
           </div>
           <div className="card-content">
@@ -23,6 +24,7 @@ const Services = () => {
         </div>
         <div className="card">
           <div className="image-container">
+          <div className='tagline'>GLOBAL FAST MOVERS</div>
             <img src="./Images/card02.jpg" alt="Card" />
           </div>
           <div className="card-content">
@@ -33,6 +35,7 @@ const Services = () => {
         </div>
         <div className="card">
           <div className="image-container">
+          <div className='tagline'>GLOBAL FAST MOVERS</div>
             <img src="./Images/card03.jpg" alt="Card" />
           </div>
           <div className="card-content">
@@ -43,6 +46,7 @@ const Services = () => {
         </div>
         <div className="card">
           <div className="image-container">
+          <div className='tagline'>GLOBAL FAST MOVERS</div>
             <img src="./Images/card04.jpg" alt="Card" />
           </div>
           <div className="card-content">

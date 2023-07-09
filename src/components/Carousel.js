@@ -1,51 +1,46 @@
-import React from 'react'
-import review from '../assets/reviews.jpeg'
-import './Reviews.css'
+import React from 'react';
+import Rajesh from '../assets/Rajesh.jpeg';
+import Alberto from '../assets/Alberto.jpg';
+import './Reviews.css';
+import Ratings from './Ratings';
+
 const Carousel = () => {
     return (
-        <>
+        <div className='Carousel'>
             <div id="carouselExampleFade" className="carousel slide carousel-fade carousel-container">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <div className=" container container-content">
-                            <img src={review} className="round" alt="review"/>
+                            <img src={Rajesh} className="round" alt="Rajesh Gopinathan" />
                             <p className='heading'>
-                                Amanda
-                            </p>
-                            <p className='sub-heading'>
-                                officer
+                                Rajesh Gopinathan
+                                <span className='sub-heading'>
+                                    CEO TCS
+                                </span>
                             </p>
                             <p className='content text-center'>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolor accusamus hic vel libero beatae eius molestiae assumenda eaque, commodi, totam nobis quis. Dolorum facere dignissimos, deleniti possimus accusantium obcaecati.
+                                <q>
+                                    I highly recommend this Logistics company for their exceptional service and unparalleled expertise in handling complex logistics operations. Their dedication, professionalism, and attention to detail make them a trusted partner for seamless transportation and supply chain solutions.
+                                </q>
                             </p>
+                            <Ratings rating={5} />
                         </div>
                     </div>
                     <div className="carousel-item">
-                    <div className=" container container-content">
-                            <img src={review} className="round" alt="review"/>
+                        <div className=" container container-content">
+                            <img src={Alberto} className="round" alt="Alberto Nobis" />
                             <p className='heading'>
-                                lorem
-                            </p>
-                            <p className='sub-heading'>
-                                officer
+                                Alberto Nobis
+                                <span className='sub-heading'>
+                                    CEO DHL
+                                </span>
                             </p>
                             <p className='content text-center'>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolor accusamus hic vel libero beatae eius molestiae assumenda eaque, commodi, totam nobis quis. Dolorum facere dignissimos, deleniti possimus accusantium obcaecati.
+                                <q>
+                                    I endorse this Logistics company for their exceptional performance and unwavering commitment to delivering top-notch logistics services. Their innovative solutions and reliability make them an invaluable global supply chain partner.
+                                </q>
                             </p>
-                        </div>
-                    </div>
-                    <div className="carousel-item">
-                    <div className=" container container-content">
-                            <img src={review} className="round" alt="review"/>
-                            <p className='heading'>
-                                epsom
-                            </p>
-                            <p className='sub-heading'>
-                                officer
-                            </p>
-                            <p className='content text-center'>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolor accusamus hic vel libero beatae eius molestiae assumenda eaque, commodi, totam nobis quis. Dolorum facere dignissimos, deleniti possimus accusantium obcaecati.
-                            </p>
+                            <Ratings rating={5} />
                         </div>
                     </div>
                 </div>
@@ -58,7 +53,7 @@ const Carousel = () => {
                     <span className="visually-hidden">Next</span>
                 </button>
             </div>
-        </>
+        </div>
     )
 }
 
