@@ -7,13 +7,15 @@
 .centralize {
     display: flex;
     align-items: center;
-    justify-content: center;   
+    justify-content: center;
 }
-.centralize .row.contact-form .img-container img{
-border-top-left-radius: 15px;
-border-bottom-left-radius: 15px;
+
+.centralize .row.contact-form .img-container img {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
-.centralize .row.contact-form .form-container{
+
+.centralize .row.contact-form .form-container {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 }
@@ -91,4 +93,12 @@ button.submit {
     /* Add position: relative to the contact-page div */
     z-index: 1;
     /* Add a higher z-index to place it in front of the background */
+}
+
+.w-100{
+    border-radius: 20px !important;
+    overflow: hidden !important;
+    height: 500px;
+    width: 70% !important;
+    margin-top: 80px;
 }
