@@ -2,7 +2,6 @@ import React from 'react';
 import './Contact.css';
 import truck from '../assets/truck.jpg';
 import End from './End';
-import './Footer.css';
 
 const Contact = () => {
   return (
@@ -60,10 +59,6 @@ const Contact = () => {
         <End />
         <div className='background'>
         </div>
-      </div>
-      <div className="footer">
-        {/* Content for the footer */}
-        <p>&copy; 2023 ExproSoft. All rights reserved.</p>
       </div>
     </section>
   );

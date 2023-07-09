@@ -21,6 +21,7 @@ const App = () => {
       <ContactPrimary />
       <Reviews />
       <Contact />
+      <div className='foot'>© 2023 ExproSoft. All rights reserved.</div>
     </div>
   );
 }
