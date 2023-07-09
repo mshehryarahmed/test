@@ -1,6 +1,6 @@
 .contact-section {
     /* background: linear-gradient(to bottom right, #ff7f50, #f1c40f); */
-    height: 100vh;
+    height: 140vh;
     width: 100%;
 }
 
@@ -83,7 +83,7 @@ button.submit {
 .contact-section .background {
     clip-path: polygon(0 100px, 50% 0, 100% 100px, 100% 100%, 0 100%);
     margin-top: 200px;
-    height: 510px;
+    height: 847px;
     width: 100%;
     background-color: #020202;
 }
@@ -123,4 +123,5 @@ input:focus, textarea:focus{
 }
 input, textarea{
     box-shadow: rgba(185, 195, 199, 0.35) 0px 5px 15px !important;
+    resize: none;
 }

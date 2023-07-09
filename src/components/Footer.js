@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       {/* Content for the footer */}
-      <p>&copy; 2023 Your Website. All rights reserved.</p>
+      <p>&copy; 2023 ExproSoft. All rights reserved.</p>
     </footer>
   );
 }
