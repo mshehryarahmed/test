@@ -1,6 +1,7 @@
 import React from 'react';
 import './Contact.css';
 import truck from '../assets/truck.jpg'
+import End from './End';
 const Contact = () => {
   return (
     <section id="contact" className="section contact-section">
@@ -55,6 +56,8 @@ const Contact = () => {
           </div>
         </div>
         <div className='background'>
+          {/* <End/> */}
+
         </div>
       </div>
       <div className="bottom">
