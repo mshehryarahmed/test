@@ -3,7 +3,9 @@
     margin-top: 20px;
     display: flex;
     position: absolute;
-    min-width: 100%;
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .End>div {
@@ -27,7 +29,7 @@
 }
 
 /* Style all font awesome icons */
-.fa {
+.logo .fa {
     margin-left: 10px;
     padding: 10px;
     font-size: 30px;
@@ -70,15 +72,10 @@
     margin-top: 10px;
 }
 
-.fa:first-child{
+.logo .fa:first-child{
     margin-left: 30px;
 }
-.subscribe{
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    flex-direction: column;
-}
+
 p.section-heading{
     font-weight: 800;
     font-size: 30px;
@@ -96,9 +93,26 @@ p.section-content{
     
 }
 
+.End ul{
+    list-style: none;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.End a{
+    text-decoration: none;
+    color: white;
+}
+
+.End h1{
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.subscribe{
+    
+}
+
 .information{
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    flex-direction: column;
+
 }
