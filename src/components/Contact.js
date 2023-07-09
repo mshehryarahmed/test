@@ -57,6 +57,9 @@ const Contact = () => {
         <div className='background'>
         </div>
       </div>
+      <div className="bottom">
+        
+      </div>
     </section>
   );
 }
