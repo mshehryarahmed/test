@@ -21,11 +21,6 @@ function End() {
                 <p className="section-heading text-capitalize">
                     information
                 </p>
-                <p className="section-content">
-                    <i class="fa-solid fa-phone-volume"></i>
-                    (123) 456-78910
-
-                </p>
             </div>
 
 
