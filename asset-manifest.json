@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/test/static/css/main.4abcd94f.css",
+    "main.js": "/test/static/js/main.a2bb441f.js",
+    "static/media/truck.jpg": "/test/static/media/truck.0dc5915e13c9099203e5.jpg",
+    "static/media/world.jpg": "/test/static/media/world.5f2522186b963f2cf8de.jpg",
+    "static/media/Home.jpg": "/test/static/media/Home.4eb99c3c1edaa0cb88d0.jpg",
+    "static/media/contact_wallpaper.jpg": "/test/static/media/contact_wallpaper.10f380c995be7681cba2.jpg",
+    "static/media/move_in.png": "/test/static/media/move_in.ac5a8f24532ce19dd0ff.png",
+    "static/media/IMG3.jpg": "/test/static/media/IMG3.ed6494b83693921e54e8.jpg",
+    "static/media/card04.jpg": "/test/static/media/card04.8ace46e31ba83c5cbedc.jpg",
+    "static/media/card01.jpg": "/test/static/media/card01.8aa75ee6601be43a2ec5.jpg",
+    "static/media/card03.jpg": "/test/static/media/card03.b8aa1dcdd44e896220fa.jpg",
+    "static/media/IMG1.jpg": "/test/static/media/IMG1.d9775055f2fd02e977e3.jpg",
+    "static/media/Alberto.jpg": "/test/static/media/Alberto.b9b4b72cef86e712c0b1.jpg",
+    "static/media/IMG2.jpg": "/test/static/media/IMG2.69b5e32ee541f5ffcec6.jpg",
+    "static/media/Main_Logo.png": "/test/static/media/Main_Logo.669507680d5ee1c662d6.png",
+    "static/media/design.png": "/test/static/media/design.745a8359d45b4c38f64e.png",
+    "static/media/Rajesh.jpeg": "/test/static/media/Rajesh.6d023f5babb3aac5a6c4.jpeg",
+    "static/media/card02.jpg": "/test/static/media/card02.3b322deba67058c01ab8.jpg",
+    "index.html": "/test/index.html",
+    "main.4abcd94f.css.map": "/test/static/css/main.4abcd94f.css.map",
+    "main.a2bb441f.js.map": "/test/static/js/main.a2bb441f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4abcd94f.css",
+    "static/js/main.a2bb441f.js"
+  ]
+}
