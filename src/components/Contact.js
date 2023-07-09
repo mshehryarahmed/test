@@ -1,6 +1,8 @@
 import React from 'react';
 import './Contact.css';
-import truck from '../assets/truck.jpg'
+import truck from '../assets/truck.jpg';
+import End from './End';
+
 const Contact = () => {
   return (
     <section id="contact" className="section contact-section">
@@ -54,11 +56,9 @@ const Contact = () => {
             </div>
           </div>
         </div>
+        <End/>
         <div className='background'>
         </div>
-      </div>
-      <div className="bottom">
-        
       </div>
     </section>
   );
