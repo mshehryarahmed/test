@@ -7,7 +7,7 @@ function End() {
         <div className='End'>
             <div className='logo'>
                 <img src={logo} className='logo-image' alt='Logo' />
-                <p className='follow-us'>Fllow us</p>
+                <p className='follow-us'>Follow us</p>
                 <p>
                     <a href="#" class="fa fa-facebook"></a>
                     <a href="#" class="fa fa-twitter"></a>
@@ -30,7 +30,7 @@ function End() {
                     <li><i class="fa fa-envelope"></i> contact@mshehryar.com</li>
                 </ul>
             </div>
-            <div className='subscribe p-4'>
+            <div className='subscribe p-3'>
                 <p className="section-heading text-capitalize">
                     Subscribe to our news letter
                 </p>

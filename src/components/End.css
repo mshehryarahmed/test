@@ -11,7 +11,6 @@
 .End>div {
     height: 390px;
     width: 25%;
-    background-color: rgb(13, 73, 129);
 }
 
 .logo {
@@ -24,7 +23,6 @@
     margin-top: 40px;
     margin-left: 40px;
     width: 50%;
-    filter: invert(100%);
     height: auto;
 }
 
@@ -97,6 +95,7 @@ p.section-content{
     list-style: none;
     font-weight: 500;
     font-size: 15px;
+    padding: 0 !important;
 }
 
 .End a{
@@ -109,10 +108,19 @@ p.section-content{
     font-size: 30px;
 }
 
-.subscribe{
-    
+.End li{
+    margin-top: 15px;
 }
 
-.information{
+.End ul .fa{
+    margin-right: 10px;
+}
 
+.End .quick-links li:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease;
+}
+
+.End {
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(0, 0, 0, 0.3) !important;
 }
