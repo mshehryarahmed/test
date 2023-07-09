@@ -7,7 +7,7 @@ function End() {
         <div className='End'>
             <div className='logo'>
                 <img src={logo} className='logo-image' alt='Logo' />
-                <p>Fllow us</p>
+                <p className='follow-us'>Fllow us</p>
                 <p>
                     <a href="#" class="fa fa-facebook"></a>
                     <a href="#" class="fa fa-twitter"></a>
