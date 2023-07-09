@@ -7,7 +7,15 @@
 .centralize{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;   
+}
+.centralize .row.contact-form .img-container img{
+border-top-left-radius: 15px;
+border-bottom-left-radius: 15px;
+}
+.centralize .row.contact-form .form-container{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 .contact-heading{
     font-size: 50px;

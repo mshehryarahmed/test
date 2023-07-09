@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <section id="contact" className="section contact-section">
       <div className="container centralize">
-        <div className="row w-100">
+        <div className="row w-100 contact-form">
           <div className="col-5 img-container">
             <img src={truck} alt="truck" className='truck-img' />
           </div>
@@ -52,6 +52,9 @@ const Contact = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="bottom">
+        
       </div>
     </section>
   );
