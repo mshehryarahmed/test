@@ -85,7 +85,19 @@ button.submit {
     margin-top: 200px;
     height: 847px;
     width: 100%;
-    background-color: #020202;
+    /* background-color: #020202; */
+    background-image: url(./../assets/world.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+.contact-section .background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
 }
 
 .contact-section {
