@@ -45,7 +45,7 @@ const Contact = () => {
                 </div>
                 <div className="row">
                   <div className="col">
-                    <button className="btn submit text-uppercase py-2 w-100 my-4" type='submit'>
+                    <button className="btn submit text-uppercase py-2 my-4" type='submit'>
                       Submit
                     </button>
                   </div>
