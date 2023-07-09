@@ -125,6 +125,7 @@ button.submit {
 
 .w-100 {
     border-radius: 20px !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
     overflow: hidden !important;
     height: 500px;
     width: 70% !important;

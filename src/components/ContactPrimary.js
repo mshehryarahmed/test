@@ -1,5 +1,8 @@
 import React from 'react';
 import './ContactPrimary.css';
+import IMG1 from '../assets/Images/IMG1.jpg'
+import IMG2 from '../assets/Images/IMG2.jpg'
+import IMG3 from '../assets/Images/IMG3.jpg'
 
 const ContactPrimary = () => {
   
@@ -19,9 +22,9 @@ const ContactPrimary = () => {
         </button>
       </div>
       <div className='footer-image'>
-        <img src='./Images/IMG2.jpg' alt='Movers'></img>
-        <img src='./Images/IMG1.jpg' alt='Logistics'></img>
-        <img src='./Images/IMG3.jpg' alt='Warehouse'></img>
+        <img src={IMG1} alt='Movers'></img>
+        <img src={IMG2} alt='Logistics'></img>
+        <img src={IMG3} alt='Warehouse'></img>
       </div>
     </section>
   );

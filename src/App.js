@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import ContactPrimary from './components/ContactPrimary';
 import Reviews from './components/Reviews';
+import Overlay from './assets/Images/contact_wallpaper.jpg'
 
 const App = () => {
   return (
@@ -17,7 +18,7 @@ const App = () => {
       <Home />
       <About />
       <Services />
-      <img className="overlay-image" src="./Images/contact_wallpaper.jpg" alt="Overlay" />
+      <img className="overlay-image" src={Overlay} alt="Overlay" />
       <ContactPrimary />
       <Reviews />
       <Contact />
