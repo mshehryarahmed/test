@@ -3,12 +3,12 @@
     background-size: cover;
     height: 100vh;
     width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 50px), 49% 100%, 0 calc(100% - 50px));
 }
 
 .HomeText {
     margin-top: 250px;
     margin-left: 100px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #ffffff;
 }
 
@@ -85,7 +85,7 @@
     }
 }
 
-.down-arrow:hover{
+.down-arrow:hover {
     cursor: pointer;
     color: rgb(0, 0, 0);
     background-color: rgb(0, 0, 0);

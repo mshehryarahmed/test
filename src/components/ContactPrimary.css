@@ -1,5 +1,52 @@
 .contact-primary-section {
-    background: linear-gradient(to bottom right, #ff7f50, #f1c40f);
-    height: 70vh;
+    height: 100vh;
     width: 100%;
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center;
+}
+
+.contact-primary-section .title{
+    margin-bottom: 23%;
+    width: 50%;
+    text-align: center;
+}
+
+.contact-primary-section .title p{
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.contact-primary-section button {
+    background-color: #198cbd;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: #000000 0.5px 0.5px 10px 0.5px;
+}
+
+.contact-primary-section button:hover {
+    box-shadow: #747070 0.5px 0.5px 10px 0.5px;
+}
+
+.contact-primary-section .footer-image{
+    width: 100%;
+    background-color: #bd0202;
+    position: absolute;
+    height: 320px;
+    margin-top: 390px;
+}
+
+.contact-primary-section .footer-image img{
+    width: 33.3333%;
+    height: 100%;
+    object-fit: cover;
 }

@@ -17,6 +17,7 @@ const App = () => {
       <Home />
       <About />
       <Services />
+      <img className="overlay-image" src="./Images/contact_wallpaper.jpg" alt="Overlay" />
       <ContactPrimary />
       <Reviews />
       <Contact />
