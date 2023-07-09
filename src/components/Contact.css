@@ -59,6 +59,10 @@ textarea#message {
     height: 80px;
 }
 
+input{
+    border: none;
+}
+
 button.submit {
     width: 100%;
     background-color: #2D8AB3;
