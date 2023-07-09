@@ -81,7 +81,10 @@ button.submit {
     margin-top: 200px;
     height: 510px;
     width: 100%;
-    background-color: #020202;
+    /* background-color: #020202; */
+    background-image: url(./../assets/world.jpg);
+    background-size: cover;
+    background-position: center;   
 }
 
 .contact-section {
