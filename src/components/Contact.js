@@ -58,6 +58,8 @@ const Contact = () => {
         </div>
         <End/>
         <div className='background'>
+          {/* <End/> */}
+
         </div>
       </div>
     </section>
